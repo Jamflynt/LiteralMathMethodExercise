@@ -30,6 +30,7 @@ let reindeers="Reindeers are better than people."
 reindeers=reindeers.replace(" ", "_").replace(" ", "_").replace(" ", "_").replace(" ", "_").replace(" ", "_")
 // change to console.log(reindeers.replace(/ /g, "_")); the "g" stands for global meaning all in string
 console.log(reindeers);
+// console.log(reindeers.replaceAll("e", "_"));
 
 // 8
 console.log(Math.sqrt(2));
